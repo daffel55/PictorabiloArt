@@ -7,11 +7,11 @@
 
 import SwiftUI
 
-@main
+    @main
 struct Pictorabilo_ArtApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StartView()
         }
     }
 }

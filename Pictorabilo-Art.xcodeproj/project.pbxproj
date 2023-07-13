@@ -7,18 +7,78 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		790321AC29F976000071F194 /* ArtGridForStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790321AB29F976000071F194 /* ArtGridForStartView.swift */; };
+		790321AE29F9B0100071F194 /* BonusMiniGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790321AD29F9B0100071F194 /* BonusMiniGameView.swift */; };
+		7913440529FA9BE7005A3D61 /* BonusMiniGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7913440429FA9BE7005A3D61 /* BonusMiniGameModel.swift */; };
+		792EB27829F3D8EC009DF41F /* ImpressumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792EB27729F3D8EC009DF41F /* ImpressumView.swift */; };
+		7945D4B42A0C20D400A46780 /* KopieArtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7945D4B32A0C20D400A46780 /* KopieArtView.swift */; };
+		7957FA7C29E9E91C0064CCC5 /* SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7957FA7B29E9E91C0064CCC5 /* SelectionView.swift */; };
+		798208D62A14033F00F83CAB /* ArtModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798208D52A14033F00F83CAB /* ArtModel.swift */; };
+		798208F22A1640BD00F83CAB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798208F12A1640BD00F83CAB /* Constants.swift */; };
+		798208F42A16B3A400F83CAB /* GridOfArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798208F32A16B3A400F83CAB /* GridOfArt.swift */; };
+		79A35A8129FD89E600461381 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A35A8029FD89E600461381 /* SettingsView.swift */; };
 		79C013C529E0197700B30D90 /* Pictorabilo_ArtApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C013C429E0197700B30D90 /* Pictorabilo_ArtApp.swift */; };
-		79C013C729E0197700B30D90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C013C629E0197700B30D90 /* ContentView.swift */; };
 		79C013C929E0197800B30D90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79C013C829E0197800B30D90 /* Assets.xcassets */; };
 		79C013CC29E0197800B30D90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79C013CB29E0197800B30D90 /* Preview Assets.xcassets */; };
+		79C013D329E019D200B30D90 /* ArtView25x25.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C013D229E019D200B30D90 /* ArtView25x25.swift */; };
+		79C013D729E01AAA00B30D90 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C013D629E01AAA00B30D90 /* Utilities.swift */; };
+		79C013DB29E01DAF00B30D90 /* QuitDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C013DA29E01DAF00B30D90 /* QuitDialog.swift */; };
+		79CDC34C29EDC36E00F19FB3 /* InstructionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CDC34B29EDC36E00F19FB3 /* InstructionView.swift */; };
+		79D38B3729F285280066C837 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D38B3629F285280066C837 /* StartView.swift */; };
+		79D4C8F62A029C7C0010FD28 /* swap.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 79D4C8F52A029C7C0010FD28 /* swap.m4a */; };
+		79D4C8FE2A029FF70010FD28 /* ohno.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 79D4C8FD2A029FF70010FD28 /* ohno.m4a */; };
+		79D4C9062A02E55B0010FD28 /* bell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 79D4C9052A02E55B0010FD28 /* bell.mp3 */; };
+		79D4C9102A02F27F0010FD28 /* InfoSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D4C90F2A02F27F0010FD28 /* InfoSheet.swift */; };
+		79DB25792A03CEEF0003D548 /* TimeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DB25782A03CEEF0003D548 /* TimeSlider.swift */; };
+		79DB257B2A03F39D0003D548 /* SoundSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DB257A2A03F39D0003D548 /* SoundSettings.swift */; };
+		79E831D92A093435009B0CEF /* InfoSheetBonusGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E831D82A093435009B0CEF /* InfoSheetBonusGame.swift */; };
+		79E831DB2A0A8A06009B0CEF /* ArtistData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E831DA2A0A8A06009B0CEF /* ArtistData.swift */; };
+		79E831DD2A0A8DA8009B0CEF /* Artists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E831DC2A0A8DA8009B0CEF /* Artists.swift */; };
+		79E831E22A0B8F89009B0CEF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79E831E42A0B8F89009B0CEF /* Localizable.strings */; };
+		79E943BE2A06AB1500584607 /* noSound.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 79E943BD2A06AB1500584607 /* noSound.m4a */; };
+		79F0FBFA2A07B35500D09990 /* MiniGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F0FBF92A07B35500D09990 /* MiniGameView.swift */; };
+		79F0FBFC2A07B39200D09990 /* MiniGameLarge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F0FBFB2A07B39200D09990 /* MiniGameLarge.swift */; };
+		79F0FBFE2A07B3BB00D09990 /* MiniGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F0FBFD2A07B3BB00D09990 /* MiniGameModel.swift */; };
+		79F7BE9829EF28D2009ACF02 /* ChooseModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F7BE9729EF28D2009ACF02 /* ChooseModeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		790321AB29F976000071F194 /* ArtGridForStartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtGridForStartView.swift; sourceTree = "<group>"; };
+		790321AD29F9B0100071F194 /* BonusMiniGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonusMiniGameView.swift; sourceTree = "<group>"; };
+		7909CF1629F5C1BC00D76E7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7913440429FA9BE7005A3D61 /* BonusMiniGameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonusMiniGameModel.swift; sourceTree = "<group>"; };
+		792EB27729F3D8EC009DF41F /* ImpressumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpressumView.swift; sourceTree = "<group>"; };
+		7945D4B32A0C20D400A46780 /* KopieArtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KopieArtView.swift; sourceTree = "<group>"; };
+		7957FA7B29E9E91C0064CCC5 /* SelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionView.swift; sourceTree = "<group>"; };
+		798208D52A14033F00F83CAB /* ArtModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtModel.swift; sourceTree = "<group>"; };
+		798208F12A1640BD00F83CAB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		798208F32A16B3A400F83CAB /* GridOfArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridOfArt.swift; sourceTree = "<group>"; };
+		79A35A8029FD89E600461381 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		79C013C129E0197700B30D90 /* Pictorabilo-Art.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pictorabilo-Art.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79C013C429E0197700B30D90 /* Pictorabilo_ArtApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pictorabilo_ArtApp.swift; sourceTree = "<group>"; };
-		79C013C629E0197700B30D90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		79C013C829E0197800B30D90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79C013CB29E0197800B30D90 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		79C013D229E019D200B30D90 /* ArtView25x25.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtView25x25.swift; sourceTree = "<group>"; };
+		79C013D629E01AAA00B30D90 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		79C013DA29E01DAF00B30D90 /* QuitDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuitDialog.swift; sourceTree = "<group>"; };
+		79CDC34B29EDC36E00F19FB3 /* InstructionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionView.swift; sourceTree = "<group>"; };
+		79D38B3629F285280066C837 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		79D4C8F52A029C7C0010FD28 /* swap.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = swap.m4a; sourceTree = "<group>"; };
+		79D4C8FD2A029FF70010FD28 /* ohno.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = ohno.m4a; sourceTree = "<group>"; };
+		79D4C9052A02E55B0010FD28 /* bell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bell.mp3; sourceTree = "<group>"; };
+		79D4C90F2A02F27F0010FD28 /* InfoSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoSheet.swift; sourceTree = "<group>"; };
+		79DB25782A03CEEF0003D548 /* TimeSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSlider.swift; sourceTree = "<group>"; };
+		79DB257A2A03F39D0003D548 /* SoundSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundSettings.swift; sourceTree = "<group>"; };
+		79E831D82A093435009B0CEF /* InfoSheetBonusGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoSheetBonusGame.swift; sourceTree = "<group>"; };
+		79E831DA2A0A8A06009B0CEF /* ArtistData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistData.swift; sourceTree = "<group>"; };
+		79E831DC2A0A8DA8009B0CEF /* Artists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artists.swift; sourceTree = "<group>"; };
+		79E831E32A0B8F89009B0CEF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		79E831E52A0B93B6009B0CEF /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		79E943BD2A06AB1500584607 /* noSound.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = noSound.m4a; sourceTree = "<group>"; };
+		79F0FBF92A07B35500D09990 /* MiniGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniGameView.swift; sourceTree = "<group>"; };
+		79F0FBFB2A07B39200D09990 /* MiniGameLarge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniGameLarge.swift; sourceTree = "<group>"; };
+		79F0FBFD2A07B3BB00D09990 /* MiniGameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniGameModel.swift; sourceTree = "<group>"; };
+		79F7BE9729EF28D2009ACF02 /* ChooseModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseModeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +92,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7913440129FA9595005A3D61 /* BonusMiniGame */ = {
+			isa = PBXGroup;
+			children = (
+				790321AD29F9B0100071F194 /* BonusMiniGameView.swift */,
+				7913440429FA9BE7005A3D61 /* BonusMiniGameModel.swift */,
+			);
+			path = BonusMiniGame;
+			sourceTree = "<group>";
+		};
+		798208D22A14020400F83CAB /* HelperLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				79E831E42A0B8F89009B0CEF /* Localizable.strings */,
+				79C013D629E01AAA00B30D90 /* Utilities.swift */,
+				79DB257A2A03F39D0003D548 /* SoundSettings.swift */,
+				790321AB29F976000071F194 /* ArtGridForStartView.swift */,
+				79DB25782A03CEEF0003D548 /* TimeSlider.swift */,
+				79C013DA29E01DAF00B30D90 /* QuitDialog.swift */,
+				798208F32A16B3A400F83CAB /* GridOfArt.swift */,
+			);
+			path = HelperLibrary;
+			sourceTree = "<group>";
+		};
+		798208D32A1402BF00F83CAB /* Instructions&Infos */ = {
+			isa = PBXGroup;
+			children = (
+				792EB27729F3D8EC009DF41F /* ImpressumView.swift */,
+				79CDC34B29EDC36E00F19FB3 /* InstructionView.swift */,
+				79D4C90F2A02F27F0010FD28 /* InfoSheet.swift */,
+				79E831D82A093435009B0CEF /* InfoSheetBonusGame.swift */,
+			);
+			path = "Instructions&Infos";
+			sourceTree = "<group>";
+		};
+		798208D42A1402FB00F83CAB /* MainViews */ = {
+			isa = PBXGroup;
+			children = (
+				79D38B3629F285280066C837 /* StartView.swift */,
+				7957FA7B29E9E91C0064CCC5 /* SelectionView.swift */,
+				79C013D229E019D200B30D90 /* ArtView25x25.swift */,
+				79F7BE9729EF28D2009ACF02 /* ChooseModeView.swift */,
+				79A35A8029FD89E600461381 /* SettingsView.swift */,
+				7945D4B32A0C20D400A46780 /* KopieArtView.swift */,
+			);
+			path = MainViews;
+			sourceTree = "<group>";
+		};
+		798E80212A06D7CC00A820AE /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				79E831DA2A0A8A06009B0CEF /* ArtistData.swift */,
+				79E831DC2A0A8DA8009B0CEF /* Artists.swift */,
+				798208D52A14033F00F83CAB /* ArtModel.swift */,
+				798208F12A1640BD00F83CAB /* Constants.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		79C013B829E0197700B30D90 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +169,15 @@
 		79C013C329E0197700B30D90 /* Pictorabilo-Art */ = {
 			isa = PBXGroup;
 			children = (
+				7909CF1629F5C1BC00D76E7B /* Info.plist */,
 				79C013C429E0197700B30D90 /* Pictorabilo_ArtApp.swift */,
-				79C013C629E0197700B30D90 /* ContentView.swift */,
+				798E80212A06D7CC00A820AE /* Data */,
+				798208D22A14020400F83CAB /* HelperLibrary */,
+				798208D42A1402FB00F83CAB /* MainViews */,
+				798208D32A1402BF00F83CAB /* Instructions&Infos */,
+				79FF5B3B2A0803AF000147B9 /* MiniGame */,
+				79D4C8E82A0296F80010FD28 /* Sounds */,
+				7913440129FA9595005A3D61 /* BonusMiniGame */,
 				79C013C829E0197800B30D90 /* Assets.xcassets */,
 				79C013CA29E0197800B30D90 /* Preview Content */,
 			);
@@ -65,6 +190,27 @@
 				79C013CB29E0197800B30D90 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		79D4C8E82A0296F80010FD28 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				79E943BD2A06AB1500584607 /* noSound.m4a */,
+				79D4C9052A02E55B0010FD28 /* bell.mp3 */,
+				79D4C8FD2A029FF70010FD28 /* ohno.m4a */,
+				79D4C8F52A029C7C0010FD28 /* swap.m4a */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		79FF5B3B2A0803AF000147B9 /* MiniGame */ = {
+			isa = PBXGroup;
+			children = (
+				79F0FBF92A07B35500D09990 /* MiniGameView.swift */,
+				79F0FBFB2A07B39200D09990 /* MiniGameLarge.swift */,
+				79F0FBFD2A07B3BB00D09990 /* MiniGameModel.swift */,
+			);
+			path = MiniGame;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +255,7 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
 			);
 			mainGroup = 79C013B829E0197700B30D90;
 			productRefGroup = 79C013C229E0197700B30D90 /* Products */;
@@ -126,6 +273,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				79C013CC29E0197800B30D90 /* Preview Assets.xcassets in Resources */,
+				79E943BE2A06AB1500584607 /* noSound.m4a in Resources */,
+				79D4C8F62A029C7C0010FD28 /* swap.m4a in Resources */,
+				79E831E22A0B8F89009B0CEF /* Localizable.strings in Resources */,
+				79D4C9062A02E55B0010FD28 /* bell.mp3 in Resources */,
+				79D4C8FE2A029FF70010FD28 /* ohno.m4a in Resources */,
 				79C013C929E0197800B30D90 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,18 +289,55 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79C013C729E0197700B30D90 /* ContentView.swift in Sources */,
+				798208F22A1640BD00F83CAB /* Constants.swift in Sources */,
+				7945D4B42A0C20D400A46780 /* KopieArtView.swift in Sources */,
+				798208F42A16B3A400F83CAB /* GridOfArt.swift in Sources */,
+				790321AC29F976000071F194 /* ArtGridForStartView.swift in Sources */,
+				7957FA7C29E9E91C0064CCC5 /* SelectionView.swift in Sources */,
+				79A35A8129FD89E600461381 /* SettingsView.swift in Sources */,
+				79E831DD2A0A8DA8009B0CEF /* Artists.swift in Sources */,
+				79D38B3729F285280066C837 /* StartView.swift in Sources */,
+				79F0FBFA2A07B35500D09990 /* MiniGameView.swift in Sources */,
+				79C013DB29E01DAF00B30D90 /* QuitDialog.swift in Sources */,
+				79F0FBFE2A07B3BB00D09990 /* MiniGameModel.swift in Sources */,
+				79E831DB2A0A8A06009B0CEF /* ArtistData.swift in Sources */,
+				790321AE29F9B0100071F194 /* BonusMiniGameView.swift in Sources */,
+				79F0FBFC2A07B39200D09990 /* MiniGameLarge.swift in Sources */,
+				79DB25792A03CEEF0003D548 /* TimeSlider.swift in Sources */,
+				79DB257B2A03F39D0003D548 /* SoundSettings.swift in Sources */,
 				79C013C529E0197700B30D90 /* Pictorabilo_ArtApp.swift in Sources */,
+				792EB27829F3D8EC009DF41F /* ImpressumView.swift in Sources */,
+				79CDC34C29EDC36E00F19FB3 /* InstructionView.swift in Sources */,
+				798208D62A14033F00F83CAB /* ArtModel.swift in Sources */,
+				79C013D729E01AAA00B30D90 /* Utilities.swift in Sources */,
+				79C013D329E019D200B30D90 /* ArtView25x25.swift in Sources */,
+				79F7BE9829EF28D2009ACF02 /* ChooseModeView.swift in Sources */,
+				7913440529FA9BE7005A3D61 /* BonusMiniGameModel.swift in Sources */,
+				79E831D92A093435009B0CEF /* InfoSheetBonusGame.swift in Sources */,
+				79D4C9102A02F27F0010FD28 /* InfoSheet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		79E831E42A0B8F89009B0CEF /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79E831E32A0B8F89009B0CEF /* en */,
+				79E831E52A0B93B6009B0CEF /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		79C013CD29E0197800B30D90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -195,7 +384,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -209,6 +398,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -249,7 +439,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -270,19 +460,23 @@
 				DEVELOPMENT_TEAM = GBKP894Y5J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "Pictorabilo-Art/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.4.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.daffe.AnimationsTryOut.Pictorabilo-Art";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,19 +493,23 @@
 				DEVELOPMENT_TEAM = GBKP894Y5J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "Pictorabilo-Art/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.4.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.daffe.AnimationsTryOut.Pictorabilo-Art";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

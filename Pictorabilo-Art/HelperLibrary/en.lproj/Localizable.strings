@@ -1,0 +1,121 @@
+/* 
+  Localizable.strings
+  Pictorabilo-Art
+
+  Created by Dagmar Feldt on 10.05.23.
+  
+*/
+
+// SelectionsView
+"choose" = "Please choose a level:";
+
+//StartView
+"generalInfo" = "General information about the app";
+//Impressum
+"copyrightHeadline" = "Copyright";
+"copyright" = "All graphics are hand-drawn, they are intellectual property of the operator. \nThey were created based on public domain images.";
+"privacy" = "Privacy:";
+"privacyDeklaration" = "Only individual data is stored locally (e.g. whether a message was displayed, a level was reached...), which is not readable by the app operator, other apps, or Apple, and is only used for program flow purposes. \nFurthermore, the app does not collect any personal data. The App Store's privacy policy informs about the data that Apple collects for every app downloaded from the App Store, billing, and other related purposes. The app operator has no control over these processes.";
+// SelectionsView
+"allowBonus" = "To get to bonus game,\nplay all pictures at least once";
+// Settingsview
+
+"settingsExpl" = "If you play with the timer, the image will be displayed for a certain amount of time and then disappear automatically, without you having to press 'NEXT'. \nThe default duration for the timer is 2 seconds, but you can change it here or turn off the timer completely. The app will remember this setting until you change it.\nBy tapping on the button under speaker icon, you can turn the sound effects on or off.";
+"hideInfo" = "Hide info";
+"timerOff" = "Turn off timer";
+"timerOn" = "Turn on timer";
+"applyQuit" = "Apply and quit";
+
+// Artview
+"modDetail" = "(modified section of the painting) ";
+"next" = "NEXT";
+"timerInfo" = "Timer is set to ";
+"sec" = "seconds";
+"noTimer" = "No timer set";
+"timerChange" = "(You can set timer or turn it off in Settings menu)";
+"memorize" = "Take a good look at the detail picture.";
+"wrongPic" = "Too bad, that was the wrong picture.";
+"findPic" = "try to find the detail that you memorized.";
+"longPress" = "Long-press to zoom in on the image.";
+"again" = "New attempt";
+"WantToSeeAgain" = "Do you want to see the detail that is being sought and the detail that you have chosen instead, once again?";
+"pressHere" = "Click here!";
+"ClickedDetail" = "Detail you choose:";
+"soughtDetail" = "Detail to search for:";
+
+// Soundsettings
+"soundOff" = "Turn off sound";
+"soundOn" = "Turn on sound";
+//Quitdialog
+"quitGame?" = "Quit the game?";
+"progLost" = "The game progress is lost!";
+"quit" = "quit";
+"hard" = "HARD";
+"bonus1" = "Bonus easy";
+"bonus2" = "Bonus hard";
+"settings" = "SETTINGS";
+"mainMenu" = "Main Menu";
+//ChooseModeView
+"moreModes" = "After completing the game once, you have access to additional game modes.";
+"moreInfo" = "More Info here";
+"easy" = "EASY";
+
+//InfoSheet
+"timerInfoText" = "In contrast to the first playthrough, there is now a TIMER running, which means that the detailed image disappears after a set time. You can adjust this time in the settings (or turn off the timer completely). Why not try the shortest time? It's interesting to see what your subconscious mind can absorb, even if the image is only visible for a fraction of a second.";
+"standardExpl" = "This is the default setting: The image is shown both as a detail and in its entirety as a line drawing. When clicked correctly, the image is colored in.";
+"easyExpl" = "Detail and entire image are colored, when clicked correctly, the image looses it's color";
+"trickyExpl" = "The detail is colored but the entire image is shown as line drawing. When clicked correctly, the image is colored in.";
+"hardExpl" = "The details are shown in lines, the whole picture in color, and is gradually decolorized by clicking on the correct details.";
+"bonusGames" = "BONUS GAMES";
+"bonusExpl" = "Both bonus games use the same detail pictures. The easy one uses 9 of them, the hard one uses all 25. These pictures are mixed up and your task is to sort them by swapping two pictures. To swap, select 2 pictures and then press the button at the bottom of the screen.";
+"infoSettings" = "In the settings menu you can change the duration of the timer or turn it off completely.\nBy tapping on the button under the speaker icon, you can turn the sound effects on or off.\n The app will remember this setting until you change it.";
+"bonusGameExpl" = "Find the piece of the artwork created by the artist shown at the top of the screen. You have two chances to get it wrong before you have to start over. If you make a mistake, the little triangle turns red. The numbers next to it indicate how many mistakes you've made so far. Good luck!";
+
+//BounsMiniGameView
+"gameOver" = "Oops, wrong again.";
+"gameOverText1" = "This piece of artwork was made by ";
+"gameOverText2" = ", but you should find art from ";
+"pressOn" = "Click on art made by ";
+"worngArt" = "This is from ";
+
+//MiniGameView
+"back" = "BACK";
+"more" = "MORE";
+"chaos" = "There's total chaos going on here.";
+"infoMiniGame" = "These pictures are mixed up and your task is to sort them by swapping two pictures. To swap, select 2 pictures and then press the button at the bottom of the screen.";
+//Artist
+"holbein" = "Hans Holbein the Younger (1497? - 1543) was a German, later Swiss painter, and a significant representative of the Renaissance. The portrait of a lady with a squirrel was created between 1526 - 1528 in London, where he permanently emigrated in 1532.";
+"holbeinPicName" = "Portrait of a lady with a squirrel";
+"leyster" = "Judith Leyster (1609 - 1660) was a Dutch painter of the Baroque period. She is considered one of the few female painters of the Golden Age whose work has survived to this day. The painting 'Young Flute Player' was probably created in 1635.";
+"leysterPicName" = "Young Flute Player";
+"jakuchu" = "Itō Jakuchū (1716 - 1800) was a Japanese painter whose favorite subject was birds, especially chickens. He used very special techniques, for example, he produced colors by using extremely small dots of a few primary colors (similar to pixels). He himself said, 'In a thousand years, people will understand my paintings.'";
+"jakuchuPicName" = "Cocks and Chickens";
+"feininger" = "Lyonel Feininger (1871 - 1956) was an American painter, draftsman, and caricaturist. He was one of the most significant painters of classical modernism. Feininger was active at the Bauhaus from 1919, but had to leave Germany due to National Socialism. The painting 'Draisine Driver' was created in 1910.";
+"feiningerPicName" = "Draisine Driver";
+"wood" = "Grant Wood (1891 - 1942) was an American painter of the so-called Regionalism movement. He was influenced by the old Dutch painting style and the New Objectivity movement. His portrait 'American Gothic' is one of his most famous works.";
+"woodPicName" = "American Gothic";
+"klee" = "Paul Klee (1879 - 1940) was a Swiss painter and graphic artist, whose work is associated with Expressionism, Constructivism, Cubism, Primitivism, and Surrealism. He was also close to the 'Blue Rider' movement. The painting 'Castle and Sun' was created in 1928.";
+"kleePicName" = "Castle and Sun";
+"klimt" = "Gustav Klimt (1862 - 1918) was an Austrian painter and significant representative of the Viennese Art Nouveau. The Tree of Life is a preliminary study for a mosaic in the Stoclet Palace in Brussels, which was completed around 1903.";
+"klimtPicName" = "The Tree of Life";
+"merian" = "Maria Sibylla Merian (1647 - 1717) was a German naturalist, explorer, and artist. Due to her accurate observations and depictions, she is considered an important precursor to modern entomology. Her book 'The Caterpillars' Marvelous Transformation and Strange Floral Food' was published in 1679.";
+"merianPicName" = "From the book: 'The Caterpillars' Marvelous Transformation and Strange Floral Food'";
+
+"rousseau" = "Henri Rousseau (1844 - 1910) was a French painter who began painting as a hobby and self-taught artist. He was a customs officer by profession. His art is associated with naïve art and post-impressionism and is considered a precursor to surrealism. Rousseau's art was often inspired by the 1889 World's Fair and the Paris Botanical Garden.";
+"rousseauPicName" = "Jungle";
+"michelangelo" = "Michelangelo Buonarroti (1475 - 1564) was an Italian painter, sculptor, architect, and poet. He is considered one of the most significant artists of the Italian High Renaissance and beyond. The ceiling fresco of the Sistine Chapel with the climax of the 'Creation of Adam' was created in the years after 1508. The work lasted for more than three years and was extremely strenuous and exhausting for Michelangelo.";
+"michelangeloPicName" = "'Creation of Adam' from the Sistine Chapel";
+"brueghel" = "Piet Brueghel the Younger (1601 - 1678) was a Flemish Baroque painter. His work was strongly influenced by his father, Pieter Bruegel the Elder. The painting 'The Peasant Wedding' is attributed to him, even though it stylistically and thematically resembles the Elder.";
+"brueghelPicName" = "The Peasant Wedding";
+"friedrich" = "Caspar David Friedrich (1774 - 1840) was a German painter of the early Romantic period. The painting 'View of a Harbour' was created around 1815-1816 and was likely inspired by the harbor of Greifswald.";
+"friedrichPicName" = "View of a Harbour";
+"baluschek" = "Hans Baluschek (1870 - 1935) was a German painter, graphic artist, and writer. Baluschek was a leading representative of the German critical realism, although he himself rejected any form of '-ism' for his art. The painting 'Here families can brew coffee' is from 1895.";
+"baluschekPicName" = "Here families can brew coffee";
+"kandinsky" = "Wassily Kandinsky (1866 - 1944) was a Russian painter, graphic artist, and art theorist. He was an expressionist artist and a pioneer of abstract art. He also lived in Germany and France, was associated with the 'Blue Rider' and the Bauhaus.";
+"kandinskyPicName" = "Composition";
+"hokusai" = "Katsushika Hokusai (1760 - 1849) was a Japanese painter and one of the most significant representatives of the Ukiyo-e genre. His work includes the '36 Views of Mount Fuji,' and among them, 'The Great Wave off Kanagawa' is the most famous. Hokusai was already 70 years old when he made this woodblock print.";
+"hokusaiPicName" = "The Great Wave off Kanagawa";
+"spitzweg" = "Karl Spitzweg (1808 - 1885) was a German painter of the Late Romantic and Biedermeier periods. He painted so-called 'joke paintings', which humorously and ironically, but also idyllically, depicted the world of the Biedermeier petty bourgeoisie. The painting 'The Sunday Walk' was created in 1841.";
+"spitzwegPicName" = "The Sunday Walk";
+"delaunay2" = "Robert Delaunay (1885 - 1941) was a French painter. He began as a self-taught artist in Neo-Impressionism, then moved to Cubism. He also explored theoretical ideas about art, such as those related to light. Eventually, he turned to pure color painting and became one of the pioneers of Orphism, a movement characterized by the use of bold colors and geometric shapes. The painting 'Saint-Séverin No. 1' was created in 1910.";
+"delaunay2PicName" = "Saint-Séverin N0. 1";
