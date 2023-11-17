@@ -42,31 +42,30 @@ var baluschekPicture = PictureMadeOfCards(cards: baluschek.artistCards, selction
 // 10. Holbein
 var holbein = ArtistData(artistname: "Holbein", fullNameOfPainter: "Hans Holbein", nameOfPicture: holbeinPicName, startPosition: 1, artistText: holbeinText)
 var holbeinPicture = PictureMadeOfCards(cards: holbein.artistCards, selctionImageName: holbein.selectionImageName, painter: holbein.fullNameOfPainter, pictureName: holbein.nameOfPicture, painterText: holbein.artistText, miniArray: holbein.cardsMiniArtist, miniArrayLarge: holbein.cardsMiniLargeArtist, id: 10)
-// 11. Feininger
-var feininger = ArtistData(artistname: "Feininger", fullNameOfPainter: "Lyonel Feininger", nameOfPicture: feiningerPicName, startPosition: 6, artistText: feiningerText)
-var feiningerPicture = PictureMadeOfCards(cards: feininger.artistCards, selctionImageName: feininger.selectionImageName, painter: feininger.fullNameOfPainter, pictureName: feininger.nameOfPicture, painterText: feininger.artistText, miniArray: feininger.cardsMiniArtist, miniArrayLarge: feininger.cardsMiniLargeArtist, id: 11)
-// 12. Jakuchu
+
+
+// 11. Jakuchu
 var jakuchu = ArtistData(artistname: "Jakuchu", fullNameOfPainter: "Itō Jakuchū", nameOfPicture: jakuchuPicName, startPosition: 0, artistText: jakuchuText)
-var jakuchuPicture = PictureMadeOfCards(cards: jakuchu.artistCards, selctionImageName: jakuchu.selectionImageName, painter: jakuchu.fullNameOfPainter, pictureName: jakuchu.nameOfPicture, painterText: jakuchu.artistText, miniArray: jakuchu.cardsMiniArtist, miniArrayLarge: jakuchu.cardsMiniLargeArtist, id: 12)
-// 13. Leyster
+var jakuchuPicture = PictureMadeOfCards(cards: jakuchu.artistCards, selctionImageName: jakuchu.selectionImageName, painter: jakuchu.fullNameOfPainter, pictureName: jakuchu.nameOfPicture, painterText: jakuchu.artistText, miniArray: jakuchu.cardsMiniArtist, miniArrayLarge: jakuchu.cardsMiniLargeArtist, id: 11)
+// 12. Leyster
 var leyster = ArtistData(artistname: "Leyster", fullNameOfPainter: "Judith Leyster", nameOfPicture: leysterPicName, startPosition: 6, artistText: leysterText)
-var leysterPicture = PictureMadeOfCards(cards: leyster.artistCards, selctionImageName: leyster.selectionImageName, painter: leyster.fullNameOfPainter, pictureName: leyster.nameOfPicture, painterText: leyster.artistText, miniArray: leyster.cardsMiniArtist, miniArrayLarge: leyster.cardsMiniLargeArtist, id: 13)
-// 14. Merian
+var leysterPicture = PictureMadeOfCards(cards: leyster.artistCards, selctionImageName: leyster.selectionImageName, painter: leyster.fullNameOfPainter, pictureName: leyster.nameOfPicture, painterText: leyster.artistText, miniArray: leyster.cardsMiniArtist, miniArrayLarge: leyster.cardsMiniLargeArtist, id: 12)
+// 13. Merian
 var merian = ArtistData(artistname: "Merian", fullNameOfPainter: "Maria Sybilla Merian", nameOfPicture: merianPicName, startPosition: 1, artistText: merianText)
-var merianPicture = PictureMadeOfCards(cards: merian.artistCards, selctionImageName: merian.selectionImageName, painter: merian.fullNameOfPainter, pictureName: merian.nameOfPicture, painterText: merian.artistText, miniArray: merian.cardsMiniArtist, miniArrayLarge: merian.cardsMiniLargeArtist, id: 14)
-// 15. Spitzweg
+var merianPicture = PictureMadeOfCards(cards: merian.artistCards, selctionImageName: merian.selectionImageName, painter: merian.fullNameOfPainter, pictureName: merian.nameOfPicture, painterText: merian.artistText, miniArray: merian.cardsMiniArtist, miniArrayLarge: merian.cardsMiniLargeArtist, id: 13)
+// 14. Spitzweg
 var spitzweg = ArtistData(artistname: "Spitzweg", fullNameOfPainter: "Carl Spitzweg", nameOfPicture: spitzwegPicName, startPosition: 0, artistText: spitzwegText)
-var spitzwegPicture = PictureMadeOfCards(cards: spitzweg.artistCards, selctionImageName: spitzweg.selectionImageName, painter: spitzweg.fullNameOfPainter, pictureName: spitzweg.nameOfPicture, painterText: spitzweg.artistText, miniArray: spitzweg.cardsMiniArtist, miniArrayLarge: spitzweg.cardsMiniLargeArtist, id: 15)
-// 16. Delaunay2
+var spitzwegPicture = PictureMadeOfCards(cards: spitzweg.artistCards, selctionImageName: spitzweg.selectionImageName, painter: spitzweg.fullNameOfPainter, pictureName: spitzweg.nameOfPicture, painterText: spitzweg.artistText, miniArray: spitzweg.cardsMiniArtist, miniArrayLarge: spitzweg.cardsMiniLargeArtist, id: 14)
+// 15. Delaunay2
 var delaunay2 = ArtistData(artistname: "Delaunay2", fullNameOfPainter: "Robert Delaunay", nameOfPicture: delaunayPicName, startPosition: 1, artistText: delaunay2Text)
-var delaunay2Picture = PictureMadeOfCards(cards: delaunay2.artistCards, selctionImageName: delaunay2.selectionImageName, painter: delaunay2.fullNameOfPainter, pictureName: delaunay2.nameOfPicture, painterText: delaunay2.artistText, miniArray: delaunay2.cardsMiniArtist, miniArrayLarge: delaunay2.cardsMiniLargeArtist, id: 16)
+var delaunay2Picture = PictureMadeOfCards(cards: delaunay2.artistCards, selctionImageName: delaunay2.selectionImageName, painter: delaunay2.fullNameOfPainter, pictureName: delaunay2.nameOfPicture, painterText: delaunay2.artistText, miniArray: delaunay2.cardsMiniArtist, miniArrayLarge: delaunay2.cardsMiniLargeArtist, id: 15)
 
 /**
  # selections wird von der SelectView ausgelesen, die daraus das Auswahlmenü in einer ForEach-Schleife macht und der ArtView alle Daten aus dem PictureMadeOCards weiter gibt
  */
 //selections: Die Items müssen in der Reihenfolge ihrer ID sein, das ist durch sorted  sicher gestellt.
 //aus der ID und der Position des Arrays erkennt die SelcetView welche Bilder schon gespielt worden sind
-var selections = [ kandinskyPicture,  hokusaiPicture, kleePicture, brueghelPicture, rousseauPicture, michelangeloPicture, friedrichPicture,  klimtPicture, baluschekPicture, holbeinPicture, feiningerPicture, jakuchuPicture, leysterPicture, merianPicture, spitzwegPicture, woodPicture, delaunay2Picture].sorted {$0.id < $1.id}
+var selections = [ kandinskyPicture,  hokusaiPicture, kleePicture, brueghelPicture, rousseauPicture, michelangeloPicture, friedrichPicture,  klimtPicture, baluschekPicture, holbeinPicture, jakuchuPicture, leysterPicture, merianPicture, spitzwegPicture, woodPicture, delaunay2Picture].sorted {$0.id < $1.id}
 
 
 
@@ -74,5 +73,5 @@ var selections = [ kandinskyPicture,  hokusaiPicture, kleePicture, brueghelPictu
  # Die aussagekräftigsten Detailbilder kommen in dieses Array:
  */
 // pictures and artists' names for BonusMiniGame und StartView
-var arrayOfPics = [("Wood_Farbe7", "Grant Wood"),("Wood_Farbe3","Grant Wood") ,("Wood_Farbe4", "Grant Wood"), ("Kandinsky_Farbe12", "Wassily Kandinsky"), ("Kandinsky_Farbe24","Wassily Kandinsky"), ("Kandinsky_Farbe9", "Wassily Kandinsky"),("Hokusai_Farbe19", "Katsushika Hokusai"), ("Hokusai_Farbe7", "Katsushika Hokusai"), ("Hokusai_Farbe25", "Katsushika Hokusai"), ("Brueghel_Farbe7", "Piet Breughel"), ("Brueghel_Farbe12", "Piet Breughel"), ("Brueghel_Farbe14", "Piet Breughel"), ("Rousseau_Farbe9", "Henri Rousseau"), ("Rousseau_Farbe12", "Henri Rousseau"), ("Rousseau_Farbe17","Henri Rousseau"), ("Michelangelo_Farbe3", "Michelangelo"), ("Michelangelo_Farbe17","Michelangelo"), ("Michelangelo_Farbe18","Michelangelo"),("Friedrich_Farbe18", "C. D. Friedrich"),("Friedrich_Farbe15","C. D. Friedrich"), ("Friedrich_Farbe20","C. D. Friedrich"), ("Klimt_Farbe3","Gustav Klimt"), ("Klimt_Farbe12","Gustav Klimt"), ("Klimt_Farbe10","Gustav Klimt"), ("Klee_Farbe18", "Paul Klee"), ("Klee_Farbe13","Paul Klee"), ("Klee_Farbe20", "Paul Klee"), ("Baluschek_Farbe7", "Hans Baluschek"), ("Baluschek_Farbe12", "Hans Baluschek"), ("Holbein_Farbe9", "Hans Holbein"), ("Holbein_Farbe7", "Hans Holbein"), ("Holbein_Farbe10","Hans Holbein"), ("Feininger_Farbe9","Lyonel Feininger"),  ("Feininger_Farbe24","Lyonel Feininger"), ("Feininger_Farbe3","Lyonel Feininger"),("Jakuchu_Farbe17","Ito Jakuchu"), ("Jakuchu_Farbe20","Ito Jakuchu"), ("Jakuchu_Farbe16","Ito Jakuchu"), ("Leyster_Farbe7","Judith Leyster"),  ("Leyster_Farbe9","Judith Leyster"),  ("Leyster_Farbe13","Judith Leyster"),   ("Merian_Farbe2","Maria S. Merian"), ("Merian_Farbe9","Maria S. Merian"), ("Merian_Farbe17", "Maria S. Merian"), ("Spitzweg_Farbe7", "Carl Spitzweg"),  ("Spitzweg_Farbe9", "Carl Spitzweg"), ("Spitzweg_Farbe18", "Carl Spitzweg"), ("Delaunay2_Farbe2", "Robert Delaunay"), ("Delaunay2_Farbe14", "Robert Delaunay"), ("Delaunay2_Farbe9", "Robert Delaunay") ].shuffled()
+var arrayOfPics = [("Wood_Farbe7", "Grant Wood"),("Wood_Farbe3","Grant Wood") ,("Wood_Farbe4", "Grant Wood"), ("Kandinsky_Farbe12", "Wassily Kandinsky"), ("Kandinsky_Farbe24","Wassily Kandinsky"), ("Kandinsky_Farbe9", "Wassily Kandinsky"),("Hokusai_Farbe19", "Katsushika Hokusai"), ("Hokusai_Farbe7", "Katsushika Hokusai"), ("Hokusai_Farbe25", "Katsushika Hokusai"), ("Brueghel_Farbe7", "Piet Breughel"), ("Brueghel_Farbe12", "Piet Breughel"), ("Brueghel_Farbe14", "Piet Breughel"), ("Rousseau_Farbe9", "Henri Rousseau"), ("Rousseau_Farbe12", "Henri Rousseau"), ("Rousseau_Farbe17","Henri Rousseau"), ("Michelangelo_Farbe3", "Michelangelo"), ("Michelangelo_Farbe17","Michelangelo"), ("Michelangelo_Farbe18","Michelangelo"),("Friedrich_Farbe18", "C. D. Friedrich"),("Friedrich_Farbe15","C. D. Friedrich"), ("Friedrich_Farbe20","C. D. Friedrich"), ("Klimt_Farbe3","Gustav Klimt"), ("Klimt_Farbe12","Gustav Klimt"), ("Klimt_Farbe10","Gustav Klimt"), ("Klee_Farbe18", "Paul Klee"), ("Klee_Farbe13","Paul Klee"), ("Klee_Farbe20", "Paul Klee"), ("Baluschek_Farbe7", "Hans Baluschek"), ("Baluschek_Farbe12", "Hans Baluschek"), ("Holbein_Farbe9", "Hans Holbein"), ("Holbein_Farbe7", "Hans Holbein"), ("Holbein_Farbe10","Hans Holbein"), ("Jakuchu_Farbe17","Ito Jakuchu"), ("Jakuchu_Farbe20","Ito Jakuchu"), ("Jakuchu_Farbe16","Ito Jakuchu"), ("Leyster_Farbe7","Judith Leyster"),  ("Leyster_Farbe9","Judith Leyster"),  ("Leyster_Farbe13","Judith Leyster"),   ("Merian_Farbe2","Maria S. Merian"), ("Merian_Farbe9","Maria S. Merian"), ("Merian_Farbe17", "Maria S. Merian"), ("Spitzweg_Farbe7", "Carl Spitzweg"),  ("Spitzweg_Farbe9", "Carl Spitzweg"), ("Spitzweg_Farbe18", "Carl Spitzweg"), ("Delaunay2_Farbe2", "Robert Delaunay"), ("Delaunay2_Farbe14", "Robert Delaunay"), ("Delaunay2_Farbe9", "Robert Delaunay") ].shuffled()
 

@@ -49,7 +49,7 @@
 //Quitdialog
 "quitGame?" = "Quit the game?";
 "progLost" = "The game progress is lost!";
-"quit" = "quit";
+"quit" = "Quit";
 "hard" = "HARD";
 "bonus1" = "Bonus easy";
 "bonus2" = "Bonus hard";
