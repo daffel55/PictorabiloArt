@@ -21,7 +21,7 @@ struct InfoSheet: View {
                                 .font(.title)
                                 .padding(.bottom, 0)
                         Text(NSLocalizedString("timerInfoText", comment: "Info about timer")).padding(10).border(Color("Color_orange")).padding(.bottom, 20)
-                    }.foregroundColor(foreC).font(.title).padding(.horizontal)
+                    }.foregroundColor(.lightStandard).font(.title).padding(.horizontal)
                     Group {
                         
                         Text("STANDARD").padding(.bottom, 0).font(.title)
@@ -32,18 +32,18 @@ struct InfoSheet: View {
                         Text(NSLocalizedString("trickyExpl", comment: "tricky explained"))
                         Text(NSLocalizedString("hard", comment: "")).padding(.bottom, 0).font(.title)
                         Text(NSLocalizedString("hardExpl", comment: "hard explained"))
-                    }.foregroundColor(foreC).font(.title2).padding(.horizontal)
+                    }.foregroundColor(.lightStandard).font(.title2).padding(.horizontal)
                     
 
                     Group {
                         Text(NSLocalizedString("bonusGames", comment: "")).padding(.bottom, 0).font(.title)
                         Text(NSLocalizedString("bonusExpl", comment: "bonus games explained"))
-                    }.foregroundColor(foreC).font(.title2).padding(.horizontal)
+                    }.foregroundColor(.lightStandard).font(.title2).padding(.horizontal)
                     Group {
                         Text("EINSTELLUNGEN").font(.title)
                         Text(NSLocalizedString("infoSettings", comment: "Settings explained"))
                         
-                    }.foregroundColor(foreC).font(.title2).padding(.horizontal)
+                    }.foregroundColor(.lightStandard).font(.title2).padding(.horizontal)
                 
                     
                     
@@ -58,10 +58,10 @@ struct InfoSheet: View {
                     Text("zurück")
                         .font(.title2)
                         .padding()
-                        .foregroundColor(backC)
+                        .foregroundColor(.darkStandard)
                         .background(Color("Color_marker"))
                         .cornerRadius(10)
-                        .border(foreC)
+                        .border(Color.lightStandard)
                 }
                     .padding()
                     .frame(maxWidth: .infinity, alignment: .trailing),

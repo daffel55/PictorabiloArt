@@ -1,15 +1,22 @@
-/* 
+/*
   Localizable.strings
   Pictorabilo-Art
 
   Created by Dagmar Feldt on 10.05.23.
   
 */
-"choose" = "Bitte auswählen:";
+//MARK: NEU
+"choose" = "Bitte wähle ein Bild:";
+"sortOrderStandard" = "Standard Sortierung";
+"newestFirst" = "Neuest zuerst";
+"unsolvedFirst" = "Ungelöste zuerst";
+"solvedFirst" = "Gelöste zuerst";
 
 "generalInfo" = "Allgemeine Hinweise zur App";
 
 //Impressum
+"Impressum" = "Impressum";
+"web" = "Strain-your-brain-Webseite";
 "copyrightHeadline" = "Urheberrecht";
 "copyright" = "Alle Graphiken sind handgezeichnet, sie sind geistiges Eigentum der Betreiberin.\nSie sind entstanden auf Grundlage allgemeinfreier Bilder.";
 "privacy" = "Datenschutz:";
@@ -17,107 +24,205 @@
 //Artview
 "modDetail" = "(modifizierter Bildausschnitt)";
 "next" = "WEITER";
+"clear" = "Du hast es geschafft!\nWEITER";
 "timerInfo" = "Der Timer steht auf ";
 "sec" = "Sekunden";
-"noTimer" = "kein Timer eingestellt";
+"noTimer" = "Kein Timer eingestellt";
 "timerChange" = "(Timer unter Einstellungen verändern)";
 "memorize" = "Präge dir dieses Detailbild ein!";
 "wrongPic" = "Schade, das war das falsche Bild!";
-"findPic" = "Finde das Bild hier wieder!";
+"findPic" = "Finde das Detailbild hier wieder!";
 "longPress" =  "Halte lange gedrückt, um das Bild zu vergrößern.";
 "again" = "Neuer Versuch";
-"WantToSeeAgain" = "Willst du das Detail, das gesucht wird, und das Detail, das du stattdessen gewählt hast, noch einmal sehen?";
 "pressHere" = "Drücke hier!";
-"ClickedDetail" = "Angeklicktes Detail";
-"soughtDetail" =  "Gesuchtes Detail";
+
+"youGot" = "Du hast";
+"zeroJoker" = "Du hast keinen Joker mehr.";
+"sought" = "Das wurde gesucht:";
+"found" = "Gefunden:";
+"noTimer" = "kein Timer eingestellt";
 //Soundsettings
+"soundSettings" = "Sound Einstellungen";
 "soundOff" = "Sound ausstellen";
 "soundOn" = "Sound einstellen";
+"instruction" = "Anleitung";
 
-//ChooseModeView
-"more" = "Nachdem du das Spiel einmal durchgespielt hast, stehen dir weitere Spielvarianten zur Verfügung.";
+//SecondMenuView
+"moreModes" = "Ab jetzt stehen dir weitere Spielvarianten zur Verfügung.";
 "moreInfo" = "Weitere Info hier";
 "easy" = "LEICHT";
 "hard" = "SCHWER";
 "bonus1" = "Bonus leicht";
-"bonus2" = "Bouns schwer";
-"settings" = "EINSTELLUNGEN";
+"bonus2" = "Bonus schwer";
+"settings" = "Einstellungen";
 "mainMenu" = "Hauptmenü";
+"allowBonus" = "Für Bonusspiel\nerst alle Bilder mind. 1mal spielen";
+"wikiInfo" = "Mehr Info bei Wikipedia";
+"picInfo" = "Dieses Bild bei WikiCommoms";
+"choosePlayMode" =  "Wähle eine Spielvariante:";
+
+
+
 
 // SettingsView
-"settingsExpl" = "Wenn du mit Timer spielst, wird das Bild für eine bestimmte Zeit angezeigt und verschwindet dann von selbst, ohne dass du auf 'WEITER' drücken musst. \nDie Standarddauer für den Timer beträgt 2 Sekunden, aber du kannst sie hier ändern oder den Timer ganz ausschalten. Die App speichert diese Einstellung, bis du sie änderst.\nDurch Tippen auf das Lautsprechersymbol kannst du die Soundeffekte ein- oder ausschalten.";
+"close" = "Schließen";
 "hideInfo" = "Info ausblenden";
-"timerOFF" = "Timer ausschalten";
+"timerOff" = "Timer ausschalten";
 "timerOn" = "Timer einschalten";
+"interval" = "Timerintervall";
 "applyQuit" = "Übernehmen und Verlassen";
+"color" = "FARBE";
+
+"pickColor"  = "Wähle eine Farbe:";
+"SaveYes" = "Als Hindergrundsfarbe sichern ✓";
+"SavePlease" = "Als Hindergrundsfarbe sichern";
+"WantToSave?"= "Die ausgewählte Farbe speichern?";
+"DontSave" = "Nicht speichern";
+"Save" = "Speichern";
+
+"ColorExpl" = "Es wird nur die Hintergrundfarbe der Bilder verändert, nicht anderer Bereiche.\nEine Ausnahme ist dieses Einstellungsmenü, damit du schon mal einen Eindruck hast 😄";
+"defaultColor" = "Auf Standard zurücksetzen";
 //Quitdialog
 "quitGame?" = "Dieses Spiel verlassen?";
 "progLost" = "Der Spielstand geht verloren!";
 "quit" = "Verlassen";
 
 // InfoSheet
-"timerInfoText" = "Im Gegensatz zum ersten Durchspielen läuft jetzt ein TIMER, das heißt, dass das Detailbild nach einer einstellbaren Zeit veschwindet. \nDu kannst diese Zeit in den Einstellungen verändern (oder den Timer wieder ganz ausstellen). \nProbiere doch mal die kürzeste Zeit, es ist interessant, was dein Unterbewusstsein aufnimmt, auch wenn das Bild nur einen Wimpernschlag lang zu sehen ist.";
-"standardExpl" = "Dies ist die Standard-Einstellung: Das Bild wird sowohl als Detail als auch im Ganzen als Linienbild angezeigt. Bei korrektem Klick wird das Bild eingefärbt.";
-"easyExpl" = "Das Detail und das ganze Bild werden in Farbe gezeigt, bei richtiger Zuordnung verliert das Bild seine Farbe.";
-"trickyExpl" = "Das Detail wird in Farbe gezeigt, das ganze Bild aber ials Linienzeichnung und wird durch richtiges Klicken eingefärbt.";
-"hardExpl" = "Das Detail wird in Linien gezeigt, das ganze Bild in Farbe und wird durch Anklicken der richtigen Details nach und nach entfärbt.";
+"FourModes" = "Vier Arten 'Art' zu spielen:";
+"FourModesExpl" = "Wenn du ein Bild einmal durchgespielt hast, gibt es neben der Standardvariante drei neue Möglichkeiten zu spielen.\nMöchtest du eine größere Herausforderung haben, verkürze die Zeit, in der das Detailbild angezeigt wird. Das kannst du unter Einstellungen unten am Bildschirm tun.";
 "bonusGames" = "BONUSSPIELE";
-"bonusExpl" = "Beide Bonusspiele nutzen die gleichen Detailbilder. Das leichte 9, das schwere alle 25. Diese Bilder sind in Unordnung geraten und deine Aufgabe ist es, diese durch Vertauschen zweier Bilder zu ordnen. Zum Tauschen wähle 2 Bilder aus und drücke dann auf den Button am unteren Bildschirmrand.";
-"infoSettings" = "In den Einstellungen kannst du die Dauer des Timers verändern oder ihn ganz ausstellen. Du kannst dort auch die Soundeffekte ausstellen.\nDie App speichert diese Einstellung, bis du sie änderst.";
+"bonusExpl" = "Bringe durcheinander gerate Bilder in die richtige Ordnung. Dazu vertausche immer 2 Bilder miteinander.\nWähle zwei Bilder aus und drücke auf den Tauschen-Button am unteren Bildschirmrand.";
+"infoSettings" = "In den Einstellungen kannst du die Dauer des Timers verändern oder ihn ganz ausstellen. Du kannst dort auch die Soundeffekte ausstellen.\nBei einigen Bildern ist eine andere Hintergrundfarbe sinnvoll, dies kannst du auch einstellen.\nDie App speichert diese Einstellung, bis du sie änderst.";
+"Settings" = "EINSTELLUNGEN";
+//InstructionsView
 
+"paintingsInLines" = "Bekannte (und unbekannte) Gemälde sind auf ihre Linien reduziert.";
+"publicDomain" = "(Damit alle Bilder dieser Sammlung gemeinfrei sind, befinden sich keine Bilder darunter, die jünger als 70 Jahre sind.)";
+"memorizeDetail" = "Präge dir das Detailbild gut ein.";
+"tapNext" = "Nachdem du auf weiter gedrückt hast, siehst du das ganze Bild. Finde jetzt das Detailbild wieder und drücke drauf.";
+"colorPicture" = "Drückst du auf das richtige Bild, färbst du nach und nach das ganze Bild ein.";
+"beCareful" = "Aber Achtung! Wenn du ein falsches Detail auswählst, verliert das Bild wieder alle Farben und du musst von vorne anfangen.";
+"takeJoker" = "Dreimal kannst du einen Joker nehmen (indem du auf das Wort Joker drückst), dann kannst du das Detailbild noch einmal ansehen. Ein verbrauchter Joker wird danach erst einmal wieder 'aufgefüllt', dafür musst du 5mal ein richtiges Detailbild finden.";
+"settingsExplained" = "Im Einstellungsmenu (auf dem iPhone auf das Zahnrad drücken) kannst du die Zeitspanne, in der das Detailbild (Standard 5 Sekunden) gezeigt wird, verändern oder den Timer ganz ausstellen. \nDu kannst den Sound aus- und einstellen (wenn du während des Spiels Musik oder Podcast hören möchtest, musst du den Sound ausstellen). \nDu kannst für das Spiel eine andere Hintergrundfarbe auswählen. Alle Einstellungen werden gespeichert.";
 // InfoSheetBonusGame
-"bonusGameExpl" = "Finde das Teil des Kunstwerks, das von dem Künstler/der Künstlerin stammt, der/die oben auf dem Bildschirm angezeigt wird. Du hast zwei Versuche, bevor du von vorne beginnen musst. Wenn du einen Fehler machst, wird das kleine Dreieck rot. Die Zahlen dahinter zeigen an, wie viele Fehler du bisher gemacht hast. Viel Glück!";
+"bonusGameExpl" = "Finde das Teil des Kunstwerks, das von dem Künstler/der Künstlerin stammt, der/die oben auf dem Bildschirm angezeigt wird. Du kannst 2mal einen Fehler machen, beim dritten musst du leider von vorn beginnen. Viel Glück!";
 
-//SelectionsView
-"allowBonus" = "Für Bonusspiel\nérst alle Bilder mind. 1mal spielen";
+
 //BonusMiniGameView
 "gameOver" = "Oh nein,das war verkehrt!";
 "gameOverText1" = "Dieser Bildauschnitt gehört zu einem Bild von ";
 "gameOverText2" = ", gesucht wurde aber: ";
 "pressOn" = "Drücke auf ein Bildteil von:";
 "worngArt" = "Das war von ";
+"bonusgame" = "Bonusspiel";
+"gameWon" = "Alle Teile richtig gefunden!";
 
 //MiniGameView
-"back" = "ZURÜCK";
-"more" = "MEHR";
+"back" = "Zurück";
 "chaos" = "Hier herrscht Chaos!";
 "infoMiniGame" = "Die Bildteile sind völlig durcheinander. Deine Aufgabe ist, sie durch Vertauschen wieder in Ordnung zu bringen. Zum Vertauschen wählst du 2 Bilder aus und drückst dann den Knopf am unteren Bildschirmrand.";
 
 
 
 //Artists
-"holbein" = "Hans Holbein der Jüngere (1497? - 1543) war ein deutscher, später schweizerischer Maler, er war ein bedeutener Vertreter der Renaissance. Das Porträt einer Dame mit einem Eichhörnchen entstand zwischen 1526 - 1528 in London, wohin er 1532 endgültig emigrierte.";
+"country" = "de";
+"wood" = "Grant Wood (1891 - 1942) war ein US-amerikanischer Maler des sogenannten Regionalismus. Er war beeinflusst vom altniederländischen Malstil und der neuen Sachlichkeit.";
+"woodPicName" = "American Gothic";
+"woodPicText" = "Sein Bildnis 'American Gothic' gehört zu seinen bekanntesten.";
+"woodLink" = "https://de.wikipedia.org/wiki/Grant_Wood";
+
+"kandinsky" = "Wassily Kandinsky (1866 - 1944), ein russischer Maler, Grafiker und Kunsttheoretiker.\n Er war ein expressionistischer Künstler und ein Wegbereiter der abstrakten Kunst.Er lebte auch in Deutschland und in Frankreich, war dem 'Blauen Reiter' und auch dem Bauhaus verbunden. ";
+"kandinskyPicName" = "Hornform";
+"kandinskyPicText" = "Das Bild 'Hornform' entstand 1924.";
+"kandinskyLink" = "https://de.wikipedia.org/wiki/Wassily_Kandinsky";
+
+"hokusai" = "Katsushika Hokusai (1760 - 1849) war ein japanischer Maler und einer der bedeutendsten Vertreter des Ukiyo-e-Genres.";
+"hokusaiPicName" = "Die große Welle vor Kanagawa";
+"hokusaiPicText" = "Zu seinem Werk gehören die '36 Ansichten des Berges Fuji', und von diesen ist 'Die große Welle vor Kanagawa' das wohl bekannteste. Bei der Anfertigung dieses Holzschnitts war Hokusai bereits 70 Jahre alt";
+"hokusaiLink" = "https://de.wikipedia.org/wiki/Katsushika_Hokusai";
+
+"brueghelName" = "Pieter Brueghel der J%C3%BCngere";
+"brueghel" = "Piet Brueghel der Jüngere (1601 - 1678) war ein flämischer Barockmaler. \nSein Werk ist stark von seinem Vater, Piet Brueghel der Ältere, geprägt.";
+"brueghelPicName" = "Die Bauernhochzeit";
+"brueghelPicText" = "Die Bauernhochzeit ist vom Stil und Sujet her eher Brueghel dem Älteren nachempfunden.";
+"brueghelLink" = "https://de.wikipedia.org/wiki/Pieter_Brueghel_der_Jüngere";
+
+"rousseau" = "Henri Rousseau (1844 - 1910) war ein französischer Maler, der autodidaktisch und als Hobby zu malen begann. Von Beruf war er Zöllner. Er wird der naiven Kunst und dem Postimpressionismus zugeordnet. Er gilt als Wegbereiter des Surrealismus. Rousseaus Kunst war häufig von der Weltausstellung 1889 und dem Pariser Botanischen Garten inspiriert.";
+"rousseauPicName" = "Joyeux farceurs\n(Die fröhlichen Narren";
+"rousseauPicText" = "Die 'Joyeux farceurs' (auf deutsch: Die fröhlichen Narren) entstanden 1906";
+"rousseauLink" = "https://de.wikipedia.org/wiki/Henri_Rousseau";
+
+"michelangelo" = "Michelangelo Buonarroti (1475 - 1564) war ein italienischer Maler, Bildhauer, Architekt und Dichter. \nEr gilt als einer der bedeutendsten Künstler der italienischen Hochrenaissance und weit darüber hinaus.";
+"michelangeloPicName" = "Die Erschaffung Andams aus dem Deckenfresco der sixtinischen Kapelle";
+"michelangeloPicText" = "Das Deckenfresco der Sixtinischen Kapelle mit dem Höhepunkt der 'Erschaffung Adams' entstand in den Jahren nach 1508. Die Arbeiten dauerten mehr als drei Jahre an und waren für Michelangelo extrem anstrengend und zehrend. ";
+"michelangeloLink" = "https://de.wikipedia.org/wiki/Michelangelo";
+
+"friedrich" = "Caspar David Friedrich (1774 - 1840) ein deutscher Maler der Frühromatik.";
+"friedrichPicName" = "Ansicht eines Hafens";
+"friedrichPicText" = "Das Bild: 'Ansicht eines Hafens' entstand ca. 1815-1816 und ist wahrscheinlich vom Greifswalder Hafen inspiriert.";
+"friedrichLink" = "https://de.wikipedia.org/wiki/Caspar_David_Friedrich";
+
+"klimt" = "Gustav Klimt (1862 - 1918) war ein österreichischer Maler und bedeutender Vertreter des Wiener Jugendstils.";
+"klimtPicName" = "Der Baum des Lebens";
+"klimtPicText" = "Der Baum des Lebens ist eine Vorstudie eines Mosaiks für das Palais Stoclet in Brüssel, das um 1903 vollendet wurde.";
+"klimtLink" = "https://en.wikipedia.org/wiki/Gustav_Klimt";
+
+"klee" = "Paul Klee (1879 - 1940) war ein schweizer Maler und Grafiker, dessen Werk dem Expressionismus, Konstruktivismus, Kubismus, Primitivismus und Surrealismus zugeordnet wird. \nAuch er stand dem 'Blauen Reiter' nah. ";
+"kleePicName" = "Schloss und Sonne";
+"kleePicText" = "Das Bild 'Schloss und Sonne' entstand 1928.";
+"kleeLink" = "https://de.wikipedia.org/wiki/Paul_Klee";
+
+"baluschek" = "Hans Baluschek (1870 - 1935) war ein deutscher Maler, Grafiker und Schriftsteller. Baluschek war ein Hauptvertreter des deutschen kritischen Realismus, wobei er selbst jede Form des '-ismus' für seine Kunst ablehnte.";
+"baluschekPicName" = "Hier können Familien Kaffee kochen";
+"baluschekPicText" = "Das Bild 'Hier können Familien Kaffee kochen' ist von 1895.";
+
+"holbeinLink" = "https://de.wikipedia.org/wiki/Hans_Holbein_der_J%C3%BCngere";
+"holbein" = "Hans Holbein der Jüngere (1497? - 1543) war ein deutscher, später schweizerischer Maler, er war ein bedeutener Vertreter der Renaissance. ";
+"holbeinPicText" = "Das Porträt einer Dame mit einem Eichhörnchen entstand zwischen 1526 - 1528 in London, wohin er 1532 endgültig emigrierte.";
 "holbeinPicName" = "Portrait einer Dame mit Eichhörnchen";
-"leyster" = "Judith Leyster (1609 - 1660) war eine niederländische Malerin des Barock. Sie gilt als eine der wenigen Malerinnen des Goldenen Zeitalters, deren Werk bis heute erhalten ist. Das Gemälde 'Junger Flötenspieler' entstand wahrscheinlich 1635.";
-"leysterPicName" = "Junger Flötenspieler";
+
+"marc" = "Franz Marc (1880 - 1916) war einer der bedeutensten Maler des deutschen Expressionismus. Er war Mitbegründerer der Künstlervereinigung „Der blaue Reiter“. Er starb als Soldat im ersten Weltkrieg,  sein Antrag auf Freistellung vom Kriegsdienst war abgelehnt worden. ";
+"marcPicName" = "Der Turm der blauen Pferde";
+"marcPicText" = "Das Bild ‚Der Turm der blauen Pferde‘ entstand 1912/1913.";
+
 "jakuchu" = "Itō Jakuchū (1716 - 1800) war ein japanischer Maler, dessen Lieblingsthema Vögel, insbesondere Hühner waren. Er benutzte sehr besondere Techniken. Zum Beispiel erzeugte er Farben durch extrem kleine Punkte aus wenigen Grundfarben (wie Pixel). Er selbst sagte: 'In tausend Jahren wird man meine Bilder verstehen.";
 "jakuchuPicName" = "Hähne und Hühner";
-"feininger" = "Lyonel Feininger (1871 - 1956) war ein US-amerikanischer Maler, Zeichner und Karikaturist. Er gehört zu den bedeutesten Malern der klassischen Moderne. Seit 1919 war Feininger am Bauhaus als aktiv, musste Deutschland aber wegen des Nationlsozialismus verlassen. Das Bild Draisinenfahrer entstand 1910.";
-"feiningerPicName" = "Draisinenfahrer";
-"wood" = "Grant Wood (1891 - 1942) war ein US-amerikanischer Maler des sogenannten Regionalismus. Er war beeinflusst vom altniederländischen Malstil und der neuen Sachlichkeit. Sein Bildnis 'American Gothic' gehört zu seinen bekanntesten.";
-"woodPicName" = "American Gothic";
-"klee" = "Paul Klee (1879 - 1940) war ein schweizer Maler und Grafiker, dessen Werk  dem Expressionismus, Konstruktivismus, Kubismus, Primitivismus und dem Surrealismus zugeordnet wird. \nAuch er stand dem 'Blauen Reiter' nah. Das Bild 'Schloss und Sonne' entstand 1928.";
-"kleePicName" = "Schloss und Sonne";
-"klimt" = "Gustav Klimt (1862 - 1918) war ein österreichischer Maler und bedeutender Vertreter des Wiener Jugendstils. \nDer Baum des Lebens ist eine Vorstudie eines Mosaiks für das Palais Stoclet  in Brüssel, das um 1903 vollendet wurde.";
-"klimtPicName" = "Der Baum des Lebens";
-"merian" = "Maria Sybilla Merian (1647 - 1717) war eine deutsche Naturwissenschaftlerin, Forschungsreisende und Künstlerin. Wegen ihrer genauen Beobachtungen und Darstellungen gilt sie als wichtige Wegbereiterin der modernen Insektenkunde.Das Buch 'Der Raupen wunderbare Verwandelung und sonderbare Blumennahrung' erschien 1679.";
-"merianPicName" = " Aus dem Buch:'Der Raupen wunderbare Verwandelung und sonderbare Blumennahrung'";
-"rousseau" = "Henri Rousseau (1844 -  1910) war ein französischer Maler, der autodidaktisch und als Hobby zu malen begann. Von Beruf war er Zöllner. Er wird der naiven Kunst und dem Postimoressionismus zugeordnet. er gilt als Wegbereiter des Surrealismus. Rousseaus Kunst war häufig von der Weltausstellung 1889 und dem Pariser Botanischen Garten inspiriert.";
-"rousseauPicName" = "Dschungel";
-"michelangelo" = "Michelangelo Buonarroti (1475 - 1564) war ein italienischer Maler, Bildhauer, Architekt und Dichter. \nEr gilt als einer der bedeutendsten Künstler der italienischen Hochrenaissance und weit darüber hinaus. Das Deckenfresco der Sixtinischen Kapelle mit dem Höhepunkt der 'Erschaffung Adams' entstand in den Jahren nach 1508. Die Arbeiten dauerten mehr als drei Jahre an und waren für Michelangelo extrem anstrengend und zehrend. ";
-"michelangeloPicName" = "Die Erschaffung Andams aus dem Deckenfresco der sixtinischen Kapelle";
-"brueghel" = "Piet Brueghel der Jüngere (1601 - 1678) war ein flämischer Barockmaler. \nSein Werk ist stark von seinem Vater, Piet Brueghel der Ältere, geprägt. Die Bauernhochzeit wird ihm zugeschrieben, auch wenn sie vom Stil und Sujet her eher dem Älteren ähnelt.";
-"brueghelPicName" = "Die Bauernhochzeit";
-"friedrich" = "Caspar David Friedrich (1774 - 1840), ein deutscher Maler der Frühromatik.\n Das Bild: 'Ansicht eines Hafens' entstand ca. 1815-1816 und ist wahrscheinlich vom Greifswalder Hafen inspiriert.";
-"friedrichPicName" = "Ansicht eines Hafens";
-"baluschek" = "Hans Baluschek (1870 - 1935) war ein deutscher Maler, Grafiker und Schriftsteller. Baluschek war ein Hauptvertreter des deutschen kritischen Realismus, wobei er selbst jede Form des '-ismus' für seine Kunst ablehnte. Das Bild 'Hier können Familien Kaffee kochen' ist von 1895.";
-"baluschekPicName" = "Hier können Familien Kaffee kochen";
-"kandinsky" = "Wassily Kandinsky (1866 - 1944), ein russischer Maler, Grafiker und Kunsttheoretiker.\n Er war ein expressionistischer Künstler und ein Wegbereiter der abstrakten Kunst.Er lebte auch in Deutschland und in Frankreich, war dem 'Blauen Reiter' und auch dem Bauhaus verbunden.";
-"kandinskyPicName" = "Komposition";
-"hokusai" = "Katsushika Hokusai (1760 - 1849), war ein japanischer Maler und einer der bedeutendsten Vertreter des Ukiyo-e-Genres. .\nZu seinem Werk gehören die '36 Ansichten des Berges Fuji', und von diesen ist 'Die große Welle vor Kanagawa' das wohl bekannteste. Bei der Anfertigung dieses Holzschnitts war Hokusai bereits 70 Jahre alt.";
-"hokusaiPicName" = "Die große Welle vor Kanagawa";
-"spitzweg" = "Karl Spitzweg (1808 - 1885) war ein deutscher Maler der Spätromatik und des Biedermeiers. Er malte u.a. sogenannte Pointenbilder, die witzig-ironisch, aber auch idyllisch die Welt des biedermeierlichen Kleinbürgertum zeigen. Das Bild ‚Der Sonntagsspaziergang‘ entstand 1841.";
-"spitzwegPicName" = "Der Sonntagsspaziergang";
-"delaunay2" = "Robert Delaunay (1885 - 1941) war ein französischer Maler. Als autodidakt wendete er sich zunächst dem Neiompressionismus zu, später dem Kubismus. Er beschäftigte sich auch mit kunsttheoretischen Gedanken, z.B. über das Licht. Schließlich wandte er sich der reinen Farbmalerei zu und ist einer der Wegbereiter der abstrakten Kunst. Das Bild 'Saint-Séverin No. 1' entstand 1909. ";
-"delaunay2PicName" = "Saint-Séverin No. 1";
+"jakuchuPicText" = "";
+"jakuchuLink" = "https://de.wikipedia.org/wiki/It%C5%8D Jakuch%C5%AB";      //It%C5%8D Jakuch%C5%AB
 
+"leyster" = "Judith Leyster (1609 - 1660) war eine niederländische Malerin des Barock. Sie gilt als eine der wenigen Malerinnen des Goldenen Zeitalters, deren Werk bis heute erhalten ist.";
+"leysterPicName" = "Junger Flötenspieler";
+"leysterPicText" = "Das Gemälde 'Junger Flötenspieler' entstand wahrscheinlich 1635.";
+
+"merian" = "Maria Sybilla Merian (1647 - 1717) war eine deutsche Naturwissenschaftlerin, Forschungsreisende und Künstlerin. Wegen ihrer genauen Beobachtungen und Darstellungen gilt sie als wichtige Wegbereiterin der modernen Insektenkunde.";
+"merianPicName" = "Aus dem Buch:'Der Raupen wunderbare Verwandelung und sonderbare Blumennahrung'";
+"merianPicText" = "Das Buch 'Der Raupen wunderbare Verwandelung und sonderbare Blumennahrung' erschien 1679.";
+
+"spitzweg" = "Karl Spitzweg (1808 - 1885) war ein deutscher Maler der Spätromatik und des Biedermeiers. Er malte u.a. sogenannte Pointenbilder, die witzig-ironisch, aber auch idyllisch die Welt des biedermeierlichen Kleinbürgertum zeigen.";
+"spitzwegPicName" = "Der Sonntagsspaziergang";
+"spitzwegPicText" = "Das Bild ‚Der Sonntagsspaziergang‘ entstand 1841.";
+
+
+"delaunay2PicName" = "Saint-Séverin No. 1";
+"delaunay2PicText" = "Das Bild 'Saint-Séverin No. 1' entstand 1909.";
+
+"duerer" = "Albrecht Dürer der Jüngere (1471 - 1528) war ein Nürnberger Maler, Grafiker, Mathematiker und Kunsttheoretiker. Er zählt zu den herausragenden Vertretern der Renaissance.";
+"duererPicName" = "Bildnis der Elsbeth Tucher";
+"duererPicText" = "Das Porträt der Nürnberger Patrizierfrau Elsbeth Tucher befand sich auch auf dem alten 20-DM-Schein.";
+"duererLink" = "https://de.wikipedia.org/wiki/Albrecht_D%C3%BCrer";
+
+"modersohn" = "Paula Modersohn-Becker (1876 - 1907) war eine deutsche Malerin und eine der bedeutendsten Vertreterinnen des frühen Expressionismus. Sie lebte u.a. in der Worpsweder Künstlerkolonie bei Bremen.";
+"modersohnPicName" = "Selbstbildnis mit Kamelienzweig";
+"modersohnPicText" = "Das 'Selbstbildnis mit Kamelienzweig' entstand 1907.";
+
+"delaunay" = "Robert Delaunay (1885 - 1941) war ein französischer Maler. Als Autodidakt wendete er sich zunächst dem Neiompressionismus zu, später dem Kubismus. Er beschäftigte sich auch mit kunsttheoretischen Gedanken, z.B. über das Licht. Schließlich wandte er sich der reinen Farbmalerei zu und ist einer der Wegbereiter der abstrakten Kunst.";
+"delaunayPicName" = "Fensterbild (Les Fenêtres simultanées sur la ville)";
+"delaunayPicText" = "Das Fensterbild, 'Les Fenêtres simultanées sur la ville' entstand 1912.";
+
+"kandinsky2PicName" = "Hafen von Odessa";
+"kandinsky2PicText" = "Den Hafen von Odessa malte er 1898.";
+
+"monet" = "Claude Monet (1840 -1926) war ein französischer Maler, der der dem Impressionismus durch sein Bild ‚Impression, Sonnenaufgang‘ aus dem Jahr 1872 seinen Namen gab. \nHeute ist Monet besonders berühmt für seine Seerosenbilder.";
+"monetPicName" = "Bahnhof Saint Lazare in Paris, Ankunft eines Zuges";
+"monetPicText" = "Das Bild ‚Bahnhof Saint Lazare in Paris, Ankunft eines Zuges‘ entstand 1877.";
+//"Eugène Delacroix (1798 - 1863) war ein französischer Maler. Er gilt als Wegbereiter des Impressionismus. Er war ein Meister der Farben, beobachtete genau, wie Farben sich mischen und reflektieren. Sein bekanntestes Bild ist der französischen Julirevolution von 1830 gewidmet (‚Die Freiheit führt das Volk‘). Das Blumenstilleben entstand 1834.";
